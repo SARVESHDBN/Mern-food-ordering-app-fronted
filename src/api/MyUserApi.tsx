@@ -285,7 +285,6 @@ export const useGetMyUser = () => {
   return { currentUser, isLoading };
 };
 
-
 type CreateUserRequest = {
   auth0Id: string;
   email: string;
